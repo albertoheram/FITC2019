@@ -38,7 +38,7 @@ class _HomepageState extends State<Homepage> {
   Widget build(BuildContext context) {
     precacheImage(AssetImage("assets/images/header.jpg"), context);
     Widget image_slider_carousel = Container(
-      height: 230,
+      height: 200,
       color: Color.fromRGBO(229, 0, 126, 1.0),
       child: Carousel(
         boxFit: BoxFit.fill,
@@ -68,7 +68,7 @@ class _HomepageState extends State<Homepage> {
             //title: Text('FITC', style: TextStyle(color: Color.fromRGBO(227, 4, 123, 1.0))),
             pinned: true,
             backgroundColor: Color.fromRGBO(229, 0, 126, 1.0),
-            expandedHeight: 150,
+            expandedHeight: 115,
             centerTitle: true,
             flexibleSpace: FlexibleSpaceBar(
               centerTitle: true,

@@ -1,0 +1,54 @@
+[
+    {
+        "merged": "C:\\Users\\leram\\OneDrive\\Documentos\\Aplicaciones Flutter\\fitc\\build\\app\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_icono.png.flat",
+        "source": "C:\\Users\\leram\\OneDrive\\Documentos\\Aplicaciones Flutter\\fitc\\android\\app\\src\\main\\res\\mipmap-xxhdpi\\icono.png"
+    },
+    {
+        "merged": "C:\\Users\\leram\\OneDrive\\Documentos\\Aplicaciones Flutter\\fitc\\build\\app\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_splash.png.flat",
+        "source": "C:\\Users\\leram\\OneDrive\\Documentos\\Aplicaciones Flutter\\fitc\\android\\app\\src\\main\\res\\mipmap-xxhdpi\\splash.png"
+    },
+    {
+        "merged": "C:\\Users\\leram\\OneDrive\\Documentos\\Aplicaciones Flutter\\fitc\\build\\app\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_icono.png.flat",
+        "source": "C:\\Users\\leram\\OneDrive\\Documentos\\Aplicaciones Flutter\\fitc\\android\\app\\src\\main\\res\\mipmap-xxxhdpi\\icono.png"
+    },
+    {
+        "merged": "C:\\Users\\leram\\OneDrive\\Documentos\\Aplicaciones Flutter\\fitc\\build\\app\\intermediates\\res\\merged\\debug\\mipmap-mdpi_icono.png.flat",
+        "source": "C:\\Users\\leram\\OneDrive\\Documentos\\Aplicaciones Flutter\\fitc\\android\\app\\src\\main\\res\\mipmap-mdpi\\icono.png"
+    },
+    {
+        "merged": "C:\\Users\\leram\\OneDrive\\Documentos\\Aplicaciones Flutter\\fitc\\build\\app\\intermediates\\res\\merged\\debug\\drawable_splash.png.flat",
+        "source": "C:\\Users\\leram\\OneDrive\\Documentos\\Aplicaciones Flutter\\fitc\\android\\app\\src\\main\\res\\drawable\\splash.png"
+    },
+    {
+        "merged": "C:\\Users\\leram\\OneDrive\\Documentos\\Aplicaciones Flutter\\fitc\\build\\app\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_splash.png.flat",
+        "source": "C:\\Users\\leram\\OneDrive\\Documentos\\Aplicaciones Flutter\\fitc\\android\\app\\src\\main\\res\\mipmap-xhdpi\\splash.png"
+    },
+    {
+        "merged": "C:\\Users\\leram\\OneDrive\\Documentos\\Aplicaciones Flutter\\fitc\\build\\app\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_splash.png.flat",
+        "source": "C:\\Users\\leram\\OneDrive\\Documentos\\Aplicaciones Flutter\\fitc\\android\\app\\src\\main\\res\\mipmap-xxxhdpi\\splash.png"
+    },
+    {
+        "merged": "C:\\Users\\leram\\OneDrive\\Documentos\\Aplicaciones Flutter\\fitc\\build\\app\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_icono.png.flat",
+        "source": "C:\\Users\\leram\\OneDrive\\Documentos\\Aplicaciones Flutter\\fitc\\android\\app\\src\\main\\res\\mipmap-xhdpi\\icono.png"
+    },
+    {
+        "merged": "C:\\Users\\leram\\OneDrive\\Documentos\\Aplicaciones Flutter\\fitc\\build\\app\\intermediates\\res\\merged\\debug\\mipmap-hdpi_icono.png.flat",
+        "source": "C:\\Users\\leram\\OneDrive\\Documentos\\Aplicaciones Flutter\\fitc\\android\\app\\src\\main\\res\\mipmap-hdpi\\icono.png"
+    },
+    {
+        "merged": "C:\\Users\\leram\\OneDrive\\Documentos\\Aplicaciones Flutter\\fitc\\build\\app\\intermediates\\res\\merged\\debug\\drawable_launch_background.xml.flat",
+        "source": "C:\\Users\\leram\\OneDrive\\Documentos\\Aplicaciones Flutter\\fitc\\android\\app\\src\\main\\res\\drawable\\launch_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\leram\\OneDrive\\Documentos\\Aplicaciones Flutter\\fitc\\build\\app\\intermediates\\res\\merged\\debug\\mipmap-mdpi_splash.png.flat",
+        "source": "C:\\Users\\leram\\OneDrive\\Documentos\\Aplicaciones Flutter\\fitc\\android\\app\\src\\main\\res\\mipmap-mdpi\\splash.png"
+    },
+    {
+        "merged": "C:\\Users\\leram\\OneDrive\\Documentos\\Aplicaciones Flutter\\fitc\\build\\app\\intermediates\\res\\merged\\debug\\mipmap-hdpi_splash.png.flat",
+        "source": "C:\\Users\\leram\\OneDrive\\Documentos\\Aplicaciones Flutter\\fitc\\android\\app\\src\\main\\res\\mipmap-hdpi\\splash.png"
+    },
+    {
+        "merged": "C:\\Users\\leram\\OneDrive\\Documentos\\Aplicaciones Flutter\\fitc\\build\\app\\intermediates\\res\\merged\\debug\\drawable_sedes.png.flat",
+        "source": "C:\\Users\\leram\\OneDrive\\Documentos\\Aplicaciones Flutter\\fitc\\android\\app\\src\\main\\res\\drawable\\sedes.png"
+    }
+]
