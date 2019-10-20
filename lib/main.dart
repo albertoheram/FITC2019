@@ -40,10 +40,17 @@ class _HomepageState extends State<Homepage> {
     double screenHeight = MediaQuery.of(context).size.height;
     precacheImage(AssetImage("assets/images/header.jpg"), context);
     Widget image_slider_carousel = Container(
+<<<<<<< HEAD
         height: screenHeight/2,
         color: Color.fromRGBO(229, 0, 126, 1.0),
         child: Carousel(
         boxFit: BoxFit.scaleDown,
+=======
+      height: 200,
+      color: Color.fromRGBO(229, 0, 126, 1.0),
+      child: Carousel(
+        boxFit: BoxFit.fill,
+>>>>>>> 78bc1be4c650b3f11329a852a8f719ae309451d4
         images: [
           AssetImage('assets/images/art1.jpg'),
           AssetImage('assets/images/art2.jpg'),
@@ -70,7 +77,11 @@ class _HomepageState extends State<Homepage> {
           SliverAppBar(
             //title: Text('FITC', style: TextStyle(color: Color.fromRGBO(227, 4, 123, 1.0))),
             pinned: true,
+<<<<<<< HEAD
             backgroundColor: Color.fromRGBO(255, 236, 0, 1.0),
+=======
+            backgroundColor: Color.fromRGBO(229, 0, 126, 1.0),
+>>>>>>> 78bc1be4c650b3f11329a852a8f719ae309451d4
             expandedHeight: 115,
             centerTitle: true,
             flexibleSpace: FlexibleSpaceBar(

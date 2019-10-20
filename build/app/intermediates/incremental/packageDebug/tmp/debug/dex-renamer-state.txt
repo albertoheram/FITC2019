@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 #Sat Oct 19 17:39:05 CDT 2019
+=======
+#Sat Oct 19 10:34:42 CDT 2019
+>>>>>>> 78bc1be4c650b3f11329a852a8f719ae309451d4
 base.0=C\:\\Users\\leram\\OneDrive\\Documentos\\Aplicaciones Flutter\\fitc\\build\\app\\intermediates\\transforms\\dexMerger\\debug\\0
 path.0=classes.dex
 renamed.0=classes.dex
