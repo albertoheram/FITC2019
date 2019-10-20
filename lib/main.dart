@@ -1,4 +1,5 @@
 import 'package:carousel_pro/carousel_pro.dart';
+import 'package:fitc/image_slider.dart';
 import 'package:fitc/sedes_header.dart';
 import 'package:fitc/sedes_grid.dart';
 import 'package:fitc/sedes_armas.dart';
@@ -36,15 +37,16 @@ class _HomepageState extends State<Homepage> {
   
   @override
   Widget build(BuildContext context) {
+    double screenHeight = MediaQuery.of(context).size.height;
     precacheImage(AssetImage("assets/images/header.jpg"), context);
     Widget image_slider_carousel = Container(
-      height: 230,
-      color: Color.fromRGBO(229, 0, 126, 1.0),
-      child: Carousel(
-        boxFit: BoxFit.fill,
+        height: screenHeight/2,
+        color: Color.fromRGBO(229, 0, 126, 1.0),
+        child: Carousel(
+        boxFit: BoxFit.scaleDown,
         images: [
-          //AssetImage('assets/images/art1.jpg'),
-          //AssetImage('assets/images/art2.jpg'),
+          AssetImage('assets/images/art1.jpg'),
+          AssetImage('assets/images/art2.jpg'),
           AssetImage('assets/images/art3.jpg'),
           AssetImage('assets/images/art4.jpg'),
           AssetImage('assets/images/art5.jpg'),
@@ -62,26 +64,30 @@ class _HomepageState extends State<Homepage> {
       ),
     );
     return Scaffold(
+      backgroundColor: Color.fromRGBO(255, 236, 0, 1.0),
       body: CustomScrollView (
         slivers: <Widget>[
           SliverAppBar(
             //title: Text('FITC', style: TextStyle(color: Color.fromRGBO(227, 4, 123, 1.0))),
             pinned: true,
-            backgroundColor: Color.fromRGBO(229, 0, 126, 1.0),
-            expandedHeight: 150,
+            backgroundColor: Color.fromRGBO(255, 236, 0, 1.0),
+            expandedHeight: 115,
             centerTitle: true,
             flexibleSpace: FlexibleSpaceBar(
               centerTitle: true,
-              background: Image.asset('assets/images/header.jpg', fit: BoxFit.cover,),
+              background: Image.asset('assets/images/header.jpg', fit: BoxFit.contain,),
             ),
           ),
-          SliverList( //carousel
+          SliverList(
+             //carousel
             delegate: SliverChildListDelegate(
               <Widget>[
                 image_slider_carousel,
+                
               ]
             )
           ),
+          
           SedesHeader(), //header sedes
           SliverGrid( //grid de iconos
             gridDelegate: SliverGridDelegateWithFixedCrossAxisCount(
