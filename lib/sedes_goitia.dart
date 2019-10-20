@@ -61,6 +61,7 @@ Widget _widget3 (Color color, String text)
   Widget build(BuildContext context) {
     return Scaffold
     (
+      backgroundColor: Color.fromRGBO(255, 236, 0, 1.0),
       body: CustomScrollView(
         slivers: <Widget>[
           SliverAppBar(
