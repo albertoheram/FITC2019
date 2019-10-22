@@ -87,7 +87,7 @@ class _HomepageState extends State<Homepage> {
           SliverGrid( //grid de iconos
             gridDelegate: SliverGridDelegateWithFixedCrossAxisCount(
               crossAxisCount: 2,
-              crossAxisSpacing: 0,
+              //crossAxisSpacing: 200.0,
             ),   
             delegate: SliverChildBuilderDelegate ( 
               (BuildContext context, int index)
@@ -114,7 +114,7 @@ class Sede extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Card(
-      color: Color.fromRGBO(229, 0, 126, 1.0),
+      //color: Color.fromRGBO(253, 130, 4, 1.0),
       child: new Container (
         //color: Color.fromRGBO(229, 0, 126, 1.0),
         child: Hero(
